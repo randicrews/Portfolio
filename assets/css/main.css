@@ -2255,6 +2255,7 @@ input, select, textarea {
 		ul.actions li {
 			padding: 0 0 0 1em;
 			vertical-align: middle;
+			margin-top: 20px;
 		}
 
 		ul.actions.special {
@@ -2669,7 +2670,7 @@ input, select, textarea {
 			list-style: none;
 		}
 
-			#footer .copyright:first-child {
+			#footer .copyright li:first-child {
 				border-left: 0;
 				margin-left: 0;
 				padding-left: 0;
