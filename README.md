@@ -4,7 +4,8 @@ This is my personal portfolio, used to showcase my completed projects and provid
 [Check it out here :sparkles:](https://randicrews.netlify.app)
 
 ## USING
-HTML & CSS
+- HTML
+- CSS
 
 ## TAKE AWAY
 Through building this portfolio, I was able to improve my HTML and CSS skills while also learning how to showcase my work in a visually appealing way.
