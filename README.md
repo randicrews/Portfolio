@@ -1,7 +1,7 @@
 # PORTFOLIO
 This is my personal portfolio, used to showcase my completed projects and provide information about myself. I updated a template to fit my needs using HTML and CSS.
 
-![Horoscope Helper](https://github.com/randicrews/horoscope/blob/main/HOROSCOPE.gif)
+![Horoscope Helper](https://github.com/randicrews/portfolio/blob/main/portfolio.gif)
 
 [Check it out here :sparkles:](https://randicrews.netlify.app)
 
