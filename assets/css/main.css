@@ -2047,7 +2047,7 @@ input, select, textarea {
 			-webkit-transition: opacity 0.2s ease-in-out;
 			-ms-transition: opacity 0.2s ease-in-out;
 			transition: opacity 0.2s ease-in-out;
-			background: url("images/overlay.png");
+			/* background: url("images/overlay.png"); */
 			border-radius: 0.35em;
 			content: '';
 			display: block;
@@ -2070,6 +2070,7 @@ input, select, textarea {
 				transition: opacity 0.2s ease-in-out;
 				border-radius: 0.35em;
 				border: solid 3px rgba(255, 255, 255, 0.5);
+				background: rgba(0, 0, 0, 0.409);
 				color: #fff;
 				content: 'View';
 				display: inline-block;
@@ -2088,11 +2089,13 @@ input, select, textarea {
 			}
 
 			.image.thumb:hover:after {
+				background: rgba(0, 0, 0, 0.473);
 				opacity: 1.0;
+
 			}
 
 			.image.thumb:hover:before {
-				background: url("images/overlay.png"), url("images/overlay.png");
+				background: rgba(0, 0, 0, 0.473);
 				opacity: 1.0;
 			}
 
@@ -2205,6 +2208,8 @@ input, select, textarea {
 			ul.icons li .icon:before {
 				font-size: 1.5em;
 			}
+
+
 
 /* Labeled Icons */
 
@@ -2631,10 +2636,18 @@ input, select, textarea {
 		}
 
 		#header h1 {
-			color: rgba(255, 255, 255, 0.5);
+			color: rgb(237, 247, 233);
 			font-size: 1.35em;
 			line-height: 1.75em;
 			margin: 0;
+			text-shadow: rgba(16, 12, 12, 0.679) 1px 1px 4px;
+		}
+		#header strong {
+			color: white;
+			font-size: 1.35em;
+			line-height: 1.75em;
+			margin: 0;
+			text-shadow: rgba(16, 12, 12, 0.679) 1px 1px 4px;
 		}
 
 		#header .image.avatar {
@@ -2650,6 +2663,9 @@ input, select, textarea {
 
 		#footer .icons a {
 			color: rgba(255, 255, 255, 0.4);
+		}
+		#footer .icons a:hover {
+			color: rgb(255, 255, 255);
 		}
 
 	#footer .copyright {
